@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <script src="ejercicio4.js?v=2"></script>
+</head>
+<body>
+    <h1>Lista interactiva de tareas</h1>
+
+    <form name="tareas" onsubmit="return agregarTarea()">
+
+        Tarea: <input type="text" name="tarea" id="tarea">
+
+        <input type="submit" value="Agregar Tarea">
+
+    </form>
+
+    <p id="mensaje"></p>
+
+    <hr>
+
+    <h3>Tareas pendientes</h3>
+
+    <ul id="listaTareas"></ul>
+
+    <hr>
+
+<a href="../index.html">Volver al menú principal</a>
+
+</body>
+</html>

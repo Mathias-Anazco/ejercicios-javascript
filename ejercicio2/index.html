@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Verificador de contraseñas</title>
+    <script src="ejercicio2.js"></script>
+</head>
+<body>
+
+    <h1>Verificador de contraseñas</h1>
+
+    <form name="formulario" onsubmit="return verificarContrasena()" novalidate>
+
+        Contraseña: <input type="password" name="contrasena" id="contrasena">
+
+        <input type="submit" value="Verificar">
+
+    </form>
+
+    <hr>
+
+    <h3>Resultados:</h3>
+
+    <p id="longitud"></p>
+    <p id="numero"></p>
+    <p id="espacios"></p>
+    <p id="resultado"></p>
+
+    <hr>
+
+<a href="../index.html">Volver al menú principal</a>
+</body>
+</html>

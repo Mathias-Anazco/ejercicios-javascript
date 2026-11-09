@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid gray;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+}
+
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#listaTareas {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+    list-style: none;
+}
+
+#listaTareas li {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#mensaje {
+    color: red;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
